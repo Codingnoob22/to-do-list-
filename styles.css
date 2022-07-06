@@ -54,14 +54,22 @@
   float: left;
   width: 100%;
   padding: 0 10px;
+  margin: 5px 4px;
 }
 
 /* Responsive columns */
 @media screen and (min-width: 600px) {
   .column {
     width: 80%;
-    display: flex;
-    justify-content: center;
+    display: auto;
+    margin: 20px 20px;
+  }
+}
+@media screen and (min-width: 780px) {
+  .column {
+    width: 60%;
+    display: auto;
+    margin: 20px 20px;
   }
 }
 
